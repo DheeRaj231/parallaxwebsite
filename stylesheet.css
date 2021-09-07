@@ -1,0 +1,87 @@
+/* styling body */
+body,html{
+    height: 100%;
+    margin: 0%;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 0.8cm;
+    color: black;
+}
+
+.pimg1,.pimg2,.pimg3{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1{
+        background-image: url('./images/game1.jpg');
+        min-height: 100%;
+
+}
+
+.pimg2{
+    background-image: url('./images/pubg.jpg');
+    min-height: 100%;
+}
+
+.pimg3{
+    background-image: url('./images/gta.jpg');
+    min-height: 100%;
+}
+
+/* styling section tag */
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-dark{
+    padding: 1%;
+   background-color: black;
+   color: #ddd;
+   text-align: center;
+}
+
+.ptext{
+    padding: 2%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext.border{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 20px;
+
+}
+
+.ptext.ptext.border.trans{
+    background-color: transparent;
+}
+
+/* for screen resolution */
+@media (max-width:568px){
+    .pimg1.pimg2.pimg3{
+        background-attachment: scroll;
+
+    }
+}
+
+.ptext .border{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 7px;
+
+}
+/* styling is done */
